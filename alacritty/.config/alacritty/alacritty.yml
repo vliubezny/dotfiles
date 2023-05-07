@@ -2,15 +2,17 @@
 
 live_config_reload: true
 font:
-  size: 16
+  size: 14
+  offset:
+    x: 2
   normal:
-    family: "Hack Nerd Font Mono"
+    family: "Hack Nerd Font"
   bold:
-    family: "Hack Nerd Font Mono"
+    family: "Hack Nerd Font"
   italic:
-    family: "Hack Nerd Font Mono"
+    family: "Hack Nerd Font"
   bold_italic:
-    family: "Hack Nerd Font Mono"
+    family: "Hack Nerd Font"
 
 window:
   dynamic_title: true

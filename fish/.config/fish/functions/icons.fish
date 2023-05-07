@@ -7,7 +7,7 @@ function icons --description "Translates program names to icons, so we an use th
     case atop htop top
       echo 
     case bash fish zsh
-      echo 
+      echo 
     case bat cat
       echo 
     case clx
