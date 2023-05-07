@@ -1,21 +1,16 @@
 # vi: ft=yaml
 
 live_config_reload: true
-
 font:
-  size: 14
-  offset:
-    y: 8
-  glyph_offset:
-    y: 4
+  size: 16
   normal:
-    family: "DejaVuSansMono Nerd Font Mono"
+    family: "Hack Nerd Font Mono"
   bold:
-    family: "DejaVuSansMono Nerd Font Mono"
+    family: "Hack Nerd Font Mono"
   italic:
-    family: "DejaVuSansMono Nerd Font Mono"
+    family: "Hack Nerd Font Mono"
   bold_italic:
-    family: "DejaVuSansMono Nerd Font Mono"
+    family: "Hack Nerd Font Mono"
 
 window:
   dynamic_title: true
@@ -28,6 +23,7 @@ window:
     lines: 40
   opacity: 0.98
   decorations: buttonless
+  option_as_alt: OnlyLeft
 
 cursor:
   unfocused_hollow: true
@@ -49,26 +45,28 @@ scrolling:
   history: 2000
   auto_scroll: true
 
-key_bindings:
-  - { key: F,        mods: Alt|Control,     chars: "\x1b\x06"       }
-  - { key: S,        mods: Alt|Control,     chars: "\x1b\x13"       }
-  - { key: P,        mods: Alt|Control,     chars: "\x1b\x10"       }
-  - { key: L,        mods: Alt|Control,     chars: "\x1b\x0c"       }
-  - { key: E,        mods: Alt,             chars: "\x1be"          }
-  - { key: Y,        mods: Alt,             chars: "\x1by"          }
-  - { key: F,        mods: Alt,             chars: "\x1bf"          }
-  - { key: B,        mods: Alt,             chars: "\x1bb"          }
-  - { key: L,        mods: Alt,             chars: "\x1bl"          }
-  - { key: O,        mods: Alt,             chars: "\x1bo"          }
-  - { key: W,        mods: Alt,             chars: "\x1bw"          }
-  - { key: D,        mods: Alt,             chars: "\x1bd"          }
-  - { key: S,        mods: Alt,             chars: "\x1bs"          }
-  - { key: H,        mods: Alt,             chars: "\x1bh"          }
-  - { key: P,        mods: Alt,             chars: "\x1bp"          }
-  - { key: V,        mods: Alt,             chars: "\x1bv"          }
-  - { key: T,        mods: Alt,             chars: "\x1bt"          }
-  - { key: U,        mods: Alt,             chars: "\x1bu"          }
-  - { key: C,        mods: Alt,             chars: "\x1bc"          }
+#key_bindings:
+#  - { key: F,        mods: Alt|Control,     chars: "\x1b\x06"       }
+#  - { key: S,        mods: Alt|Control,     chars: "\x1b\x13"       }
+#  - { key: P,        mods: Alt|Control,     chars: "\x1b\x10"       }
+#  - { key: L,        mods: Alt|Control,     chars: "\x1b\x0c"       }
+#  - { key: J,        mods: Alt,             chars: "\x1bj"          }
+#  - { key: K,        mods: Alt,             chars: "\x1bk"          }
+#  - { key: E,        mods: Alt,             chars: "\x1be"          }
+#  - { key: Y,        mods: Alt,             chars: "\x1by"          }
+#  - { key: F,        mods: Alt,             chars: "\x1bf"          }
+#  - { key: B,        mods: Alt,             chars: "\x1bb"          }
+#  - { key: L,        mods: Alt,             chars: "\x1bl"          }
+#  - { key: O,        mods: Alt,             chars: "\x1bo"          }
+#  - { key: W,        mods: Alt,             chars: "\x1bw"          }
+#  - { key: D,        mods: Alt,             chars: "\x1bd"          }
+#  - { key: S,        mods: Alt,             chars: "\x1bs"          }
+#  - { key: H,        mods: Alt,             chars: "\x1bh"          }
+#  - { key: P,        mods: Alt,             chars: "\x1bp"          }
+#  - { key: V,        mods: Alt,             chars: "\x1bv"          }
+#  - { key: T,        mods: Alt,             chars: "\x1bt"          }
+#  - { key: U,        mods: Alt,             chars: "\x1bu"          }
+#  - { key: C,        mods: Alt,             chars: "\x1bc"          }
 
 #######################################
 ##      START OF COLOR SCHEMES       ##

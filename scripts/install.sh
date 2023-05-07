@@ -21,5 +21,10 @@ asdf plugin add kubectl
 mkdir -p "$HOME/.config/fish/completions"
 ln -sf "$HOME/.asdf/completions/asdf.fish" "$HOME/.config/fish/completions"
 
+if [[ ! -d "$HOME/.tmux/plugins/tpm" ]]; then
+  echo "Install tmux plagin manager"
+  git clone https://github.com/tmux-plugins/tpm "$HOME/.tmux/plugins/tpm"
+fi
+
 $current_dir/install_dotfiles.fish
 $current_dir/setup_fish.fish
