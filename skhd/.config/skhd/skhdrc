@@ -1,0 +1,33 @@
+alt - b : open -a "/Applications/Google Chrome.app"
+alt - t : open -a "/Applications/WezTerm.app"
+alt - o : open -a "/Applications/Microsoft Outlook.app"
+#alt - n : open -a "/Applications/Microsoft OneNote.app"
+alt - m : open -a "/Applications/Microsoft Teams.app"
+alt - v : open -a "/Applications/Visual Studio Code.app"
+alt - f : open -a "/Applications/Double Commander.app"
+alt - s : open -a "/Applications/Slack.app"
+alt - p : open -a "/Applications/Postman.app"
+#alt - g : open -a "/Applications/Sourcetree.app"
+#alt - k : open -a "/Applications/KeePassXC.app"
+#alt - a : open -a "/Users/$USER/Applications/Android Studio.app"
+#alt - y : open -a "/Users/$USER/Applications/PyCharm Community.app"
+
+# Show date
+# alt - d : osascript ~/.config/skhd/applescripts/pop.scpt
+
+# Close notifications
+#alt - x : osascript ~/.config/skhd/applescripts/notifications.scpt
+
+# Open main menu
+#alt - e : osascript ~/.config/skhd/applescripts/menu.scpt
+
+# MS Teams mute/unmute
+# alt - u : open -a "/Applications/Microsoft Teams.app" && skhd -k "cmd + shift - m"
+
+# Control+V - if outlook, paste and match style, if other office, paste special
+# ctrl - v [
+#     "microsoft outlook" : ~/Programs/skhd -k "cmd + alt + shift - v"
+#     "microsoft powerpoint" : ~/Programs/skhd -k "cmd + ctrl - v"
+#     "microsoft word" : ~/Programs/skhd -k "cmd + ctrl - v"
+#     "microsoft excel" : ~/Programs/skhd -k "cmd + ctrl - v"
+# ]
