@@ -55,7 +55,7 @@ config.colors = {
 
     inactive_tab = {
       bg_color = bg,
-      fg_color = scheme.tab_bar.inactive_tab.fg_color
+      fg_color = scheme.ansi[8]
     },
 
     inactive_tab_hover = {
